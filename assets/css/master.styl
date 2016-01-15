@@ -1,0 +1,118 @@
+@import '_settings'
+
+normalize-css()
+base()
+
+body
+  background: #0590cb url(../img/body-pattern.jpg) top center no-repeat
+  color: font-color !important
+  font-size: font-size !important
+
+img
+ width: 100%
+
+.white
+ color: white
+
+.container
+  max-width: 980px
+
+.title
+ color: navy !important
+
+.header
+  margin-top: 20px
+
+.content .title
+  margin-top: 0px
+
+.featured, .content, .footer
+  background: white
+  padding: 25px
+  margin-bottom: 20px
+  border-radius: radius
+  box-shadow(box_shadow)
+
+.featured
+ padding: 0
+
+.featured > div
+ padding: 15px
+
+.footer .col-md-4
+ padding: 8px
+
+.footer .panel-body
+ background-color: #f6f6f6
+ min-height: 215px
+ padding-top: 5px
+
+.credits
+ color: white
+ margin-top: 50px
+ margin-bottom: 50px
+ font-size: 12px
+ line-height: 16px
+
+.btn
+ background-color: navy-btn
+ border: navy-btn
+ border-radius: radius
+
+.pl-15
+ padding-left: pl_15 !important
+
+.pr_15
+ padding-right: pr_15 !important
+
+// Navigation
+
+.navbar
+ border-radius: radius
+ border: none
+
+.navbar #menu
+ padding-left: 0px
+ box-shadow(box_shadow)
+
+.navbar li a
+ color: font-color !important
+ text-transform: uppercase
+
+.navbar li.active a
+ background-color: navy-btn !important
+ color: white !important
+
+
+// Header
+
+.logo
+ max-width: 240px
+ margin-left: auto
+ margin-right: auto
+
+.col-md-9 h3
+ margin-top: 5px
+
+.social li
+ padding: 0
+ margin: 0 5px
+
+.social li a
+ background: white
+ padding: 0
+ line-height: 44px
+
+.social .fa
+ color: white
+ display: inline-block
+ width: 40px
+ height: 40px
+ line-height: 40px
+ text-align: center
+
+.social .facebook .fa
+ background-color: #325c94
+
+.social .twitter .fa
+ background-color: #00abdc
