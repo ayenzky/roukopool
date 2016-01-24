@@ -2,16 +2,16 @@
   "name": "roukopool",
   "description": "roukopool business site",
   "dependencies": {
-    "autoprefixer-stylus": "0.5.x",
-    "axis": "0.3.x",
-    "coffee-script": "1.9.x",
-    "jade": "1.9.x",
+    "autoprefixer-stylus": "^0.5.0",
+    "axis": "^0.3.2",
+    "coffee-script": "^1.9.3",
+    "jade": "^1.9.2",
     "lightbox2": "^2.8.2",
-    "marked": "0.3.x",
-    "roots": "3.0.x",
+    "marked": "^0.3.5",
+    "roots": "^3.0.4",
     "roots-contentful": "0.0.7",
-    "rupture": "0.6.x",
+    "rupture": "^0.6.1",
     "ship": "0.2.x",
-    "stylus": "0.50.x"
+    "stylus": "^0.50.0"
   }
 }

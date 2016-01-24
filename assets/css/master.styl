@@ -4,6 +4,7 @@ normalize-css()
 base()
 
 body
+  font-family: $open-sans
   background: #0590cb url(../img/body-pattern.jpg) top center no-repeat
   color: font-color !important
   font-size: font-size !important
@@ -11,11 +12,15 @@ body
 img
  width: 100%
 
+img.media-object {
+  min-width: 150px;
+}
+
 .white
  color: white
 
 .container
-  max-width: 980px
+  max-width: 940px
 
 .title
  color: navy !important
@@ -121,3 +126,29 @@ img
   max-width: 80%
   margin-left: auto
   margin-right: auto
+
+
+.media-body li {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.counter {
+  font-size: 18px;
+  margin-right: 15px;
+  border: 1px solid #333;
+  border-radius: 100%;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+}
+/* featured */
+
+.com {
+  background: url('../../img/header-bottom-links-01.png') center right no-repeat;
+}
+.res {
+  background: url('../../img/header-bottom-links-02.png') center right no-repeat;
+}
