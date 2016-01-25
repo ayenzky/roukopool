@@ -5,4 +5,11 @@ block content
 
 	p Have an enquiry? Send us an email.<br> We will answer as quickly as we can!
 
-	
+	form(action="//formspree.io/el.junsan@yahoo.com", method="POST")
+		input(type="hidden", name="_subject", value="Roukopoolinteriors - Online Enquiries")
+		input(type="text", name="name", class="name")
+		input(type="email", name="_replyto", class="email")
+		input(type="hidden", name="_cc", class="cc" value="eljunz@gmail.com")
+		input(type="hidden", name="_next", value="/pages/thanks")
+		input(type="text", name="_gotcha", style="display:none")
+		input(type="submit", value="Send")
