@@ -12,9 +12,9 @@ body
 img
  width: 100%
 
-img.media-object {
+img.media-object
   min-width: 150px;
-}
+
 
 .white
  color: white
@@ -37,6 +37,9 @@ img.media-object {
   margin-bottom: 20px
   border-radius: radius
   box-shadow(box_shadow)
+
+.content
+  border-radius: content-radius
 
 .featured
  padding: 0
@@ -64,6 +67,11 @@ img.media-object {
  border: navy-btn
  border-radius: radius
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
 .pl-15
  padding-left: pl_15 !important
 
@@ -152,3 +160,18 @@ img.media-object {
 .res {
   background: url('../../img/header-bottom-links-02.png') center right no-repeat;
 }
+
+
+/* Forms */
+
+.checkboxes label:first-child
+  display: block
+
+.checkboxes label
+
+  display: inline-block
+  padding-right: 25px
+
+.checkboxes label input
+  float: left
+  margin-right: 5px
