@@ -5,60 +5,61 @@ block content
 
 	p Have an enquiry? Send us an email.<br> We will answer as quickly as we can!
 
-	form(action="//formspree.io/el.junsan@yahoo.com", method="POST")
-		input(type="hidden", name="_subject", value="Roukopoolinteriors - Online Enquiries")
-		div.form-group.col-md-7
-			label Name:
-			input(type="text", name="name", class="name form-control")
-		div.form-group.col-md-7
-			label Address:
-			input(type="text", name="address", class="address form-control")
-		div.form-group.col-md-7
-			label State:
-			input(type="text", name="state", class="state form-control")
-		div.form-group.col-md-7
-			label Postcode:
-			input(type="text", name="postcode", class="postcode form-control")
-		div.form-group.col-md-7
-			label Phone (inc.area code)*:
-			input(type="text", name="phone", class="phone form-control")
-		div.form-group.col-md-7
-			label Mobile*:
-			input(type="text", name="mobile", class="mobile form-control")
-		div.form-group.col-md-7
-			label Work:
-			input(type="text", name="work", class="work form-control")
-		div.form-group.col-md-7
-			label Fax:
-			input(type="text", name="fax", class="fax form-control")
-		div.form-group.col-md-7
-			label Email:
-			input(type="email", name="_replyto", class="email form-control")
-		div.form-group.col-md-7.checkboxes
-			label Please contact me with more information by:
-			label Phone
-				input(type="checkbox", name="c-phone", class="c-phone" value="Phone")
-			label Mobile
-				input(type="checkbox", name="c-mobile", class="c-mobile" value="Mobile")
-			label Email
-				input(type="checkbox", name="c-email", class="c-email" value="Email")
-			label Fax
-				input(type="checkbox", name="c-fax", class="c-fax" value="Fax")
-		div.form-group.col-md-7
-			label My current pool surface type is:
-			input(type="text", name="surface", class="surface form-control")
-		div.form-group.col-md-7
-			label Approx. how old is your pool?:
-			input(type="text", name="surface", class="surface form-control")
-		div.form-group.col-md-7
-			label Described the current condition of your pool:
-			input(type="text", name="condition", class="condition form-control")
-		div.form-group.col-md-7
-			label Additional comments:
-			textarea(name="message", class="message form-control")
-		div.form-group.col-md-7.hidden
-			input(type="hidden", name="_cc", class="cc" value="guardfactories1@gmail.com")
-			input(type="hidden", name="_next", value="/pages/thanks")
-			input(type="text", name="_gotcha", style="display:none")
-		div.form-group.col-md-7
-			button(type="submit", class="send btn btn-primary") Send
+	div.row
+		form(action="//formspree.io/el.junsan@yahoo.com", method="POST")
+			input(type="hidden", name="_subject", value="Roukopoolinteriors - Online Enquiries")
+			div.form-group.col-md-7
+				label Name:
+				input(type="text", name="name", class="name form-control")
+			div.form-group.col-md-7
+				label Address:
+				input(type="text", name="address", class="address form-control")
+			div.form-group.col-md-7
+				label State:
+				input(type="text", name="state", class="state form-control")
+			div.form-group.col-md-7
+				label Postcode:
+				input(type="text", name="postcode", class="postcode form-control")
+			div.form-group.col-md-7
+				label Phone (inc.area code)*:
+				input(type="text", name="phone", class="phone form-control")
+			div.form-group.col-md-7
+				label Mobile*:
+				input(type="text", name="mobile", class="mobile form-control")
+			div.form-group.col-md-7
+				label Work:
+				input(type="text", name="work", class="work form-control")
+			div.form-group.col-md-7
+				label Fax:
+				input(type="text", name="fax", class="fax form-control")
+			div.form-group.col-md-7
+				label Email:
+				input(type="email", name="_replyto", class="email form-control")
+			div.form-group.col-md-7.checkboxes
+				label Please contact me with more information by:
+				label Phone
+					input(type="checkbox", name="c-phone", class="c-phone" value="Phone")
+				label Mobile
+					input(type="checkbox", name="c-mobile", class="c-mobile" value="Mobile")
+				label Email
+					input(type="checkbox", name="c-email", class="c-email" value="Email")
+				label Fax
+					input(type="checkbox", name="c-fax", class="c-fax" value="Fax")
+			div.form-group.col-md-7
+				label My current pool surface type is:
+				input(type="text", name="surface", class="surface form-control")
+			div.form-group.col-md-7
+				label Approx. how old is your pool?:
+				input(type="text", name="surface", class="surface form-control")
+			div.form-group.col-md-7
+				label Described the current condition of your pool:
+				input(type="text", name="condition", class="condition form-control")
+			div.form-group.col-md-7
+				label Additional comments:
+				textarea(name="message", class="message form-control")
+			div.form-group.col-md-7.hidden
+				input(type="hidden", name="_cc", class="cc" value="guardfactories1@gmail.com")
+				input(type="hidden", name="_next", value="/pages/thanks")
+				input(type="text", name="_gotcha", style="display:none")
+			div.form-group.col-md-7
+				button(type="submit", class="send btn btn-primary") Send

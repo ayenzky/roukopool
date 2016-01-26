@@ -4,11 +4,13 @@ normalize-css()
 base()
 
 body
-  font-family: $open-sans
+  font-family: open-sans
   background: #0590cb url(../img/body-pattern.jpg) top center no-repeat
   color: font-color !important
   font-size: font-size !important
 
+h1,h4
+  font-weight: 700
 img
  width: 100%
 
@@ -42,7 +44,7 @@ img.media-object
   border-radius: content-radius
 
 .featured
- padding: 0
+ padding: 8px
 
 .featured > div
  padding: 15px
@@ -89,13 +91,31 @@ img.media-object
  box-shadow(box_shadow)
 
 .navbar li a
+ font-size: 15px
  color: font-color !important
  text-transform: uppercase
+ padding-right: 5px;
+
+ @media screen and (max-width: 640px)
+  padding-left: 25px !important
+
+.navbar li ul a.dropdown-toggle
+  border: 1px solid red
+  display: none
+
+.navbar li ul a
+  padding-left: 15px
+  @media screen and (max-width: 640px)
+    padding-left: 35px !important
 
 .navbar li.active a
  background-color: navy-btn !important
  color: white !important
 
+body .caret
+  margin-top: 5px !important
+  margin-left: 10px !important
+  float: right !important
 
 // Header
 
@@ -103,6 +123,10 @@ img.media-object
  max-width: 240px
  margin-left: auto
  margin-right: auto
+ padding-left: 0px !important
+
+.contact
+ padding-right: 0px !important
 
 .col-md-9 h3
  margin-top: 5px
@@ -154,13 +178,16 @@ img.media-object
 }
 /* featured */
 
-.com {
+.com
   background: url('../../img/header-bottom-links-01.png') center right no-repeat;
-}
-.res {
-  background: url('../../img/header-bottom-links-02.png') center right no-repeat;
-}
 
+.res
+  background: url('../../img/header-bottom-links-02.png') center right no-repeat;
+
+.featured a
+  color: black
+.featured a:hover
+  color: navy-btn
 
 /* Forms */
 
@@ -175,3 +202,10 @@ img.media-object
 .checkboxes label input
   float: left
   margin-right: 5px
+
+.footer p.call
+  font-size: 22px
+  font-weight: 700
+  marging: 5px 0 !important
+
+
