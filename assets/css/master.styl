@@ -21,8 +21,14 @@ img.media-object
 .white
  color: white
 
+#main-wrapper.container
+  width:100%;
+
 .container
-  max-width: 940px
+  max-width: 940px;
+
+#main-wrapper section
+  width:100%;
 
 .title
  color: navy !important
@@ -60,6 +66,32 @@ img.media-object
  @media screen and (max-width: 640px)
   min-height: 100px !important
 
+@media screen and (max-width: 800px)
+  
+  .navbar li a
+   padding:15px 10px;
+
+  #main-wrapper > section
+   width: 100%
+  
+@media screen and (max-width: 767px) 
+  
+  .navbar-nav
+    margin: 0px
+
+  .navbar-collapse.collapse
+    padding-right: 0px
+
+  .navbar-collapse.collapse ul > li > a 
+   padding: 15px 10px;
+  
+  .navbar-nav .open .dropdown-menu>li>a
+   padding: 15px 20px;
+
+  .pl-15
+    padding-bottom:10px;
+  
+
 .credits
  color: white
  margin-top: 50px
@@ -85,6 +117,7 @@ img.media-object
 
 .pr_15
  padding-right: pr_15 !important
+ padding-left: 0 !important;
 
  @media screen and (max-width: 640px)
   padding-right: 8px !important
@@ -112,6 +145,14 @@ img.media-object
   border: 1px solid red
   display: none
 
+.navbar li ul.dropdown-menu
+  padding:0px;
+
+.navbar li ul.dropdown-menu li a
+  padding:10px;
+
+
+
 .navbar li ul a
   padding-left: 15px
   @media screen and (max-width: 640px)
@@ -122,7 +163,7 @@ img.media-object
  color: white !important
 
 body .caret
-  margin-top: 5px !important
+  margin-top: 9px !important
   margin-left: 10px !important
   float: right !important
 
@@ -202,6 +243,12 @@ body .caret
 .res a
   @media screen and (max-width: 380px)
     padding-right: 35px
+
+.featured > div.com
+  @media screen and (max-width: 360px)
+    
+    clear:both
+    background-position: 11em center
 
 .featured a
   color: black
