@@ -6,11 +6,11 @@ block content
 	p Have an enquiry? Send us an email.<br> We will answer as quickly as we can!
 
 	div.row
-		form(action="//formspree.io/ayenzky101@gmail.com", method="POST")
+		form(action="//formspree.io/ayenzky101@gmail.com", method="POST", id="ss-form")
 			input(type="hidden", name="_subject", value="Roukopoolinteriors - Online Enquiries")
 			div.form-group.col-md-7
-				label Name:
-				input(type="text", name="name", class="name form-control")
+				label Name <span class="required">*</span>:
+				input(type="text", name="name", class="name form-control", required)
 			div.form-group.col-md-7
 				label Address:
 				input(type="text", name="address", class="address form-control")
@@ -21,11 +21,11 @@ block content
 				label Postcode:
 				input(type="text", name="postcode", class="postcode form-control")
 			div.form-group.col-md-7
-				label Phone (inc.area code)*:
+				label Phone (inc.area code):
 				input(type="text", name="phone", class="phone form-control")
 			div.form-group.col-md-7
-				label Mobile*:
-				input(type="text", name="mobile", class="mobile form-control")
+				label Mobile <span class="required">*</span>:
+				input(type="text", name="mobile", class="mobile form-control" required)
 			div.form-group.col-md-7
 				label Work:
 				input(type="text", name="work", class="work form-control")
@@ -33,8 +33,8 @@ block content
 				label Fax:
 				input(type="text", name="fax", class="fax form-control")
 			div.form-group.col-md-7
-				label Email:
-				input(type="email", name="_replyto", class="email form-control")
+				label Email <span class="required">*</span>:
+				input(type="email", name="_replyto", class="email form-control" required)
 			div.form-group.col-md-7.checkboxes
 				label Please contact me with more information by:
 				label Phone
@@ -57,9 +57,13 @@ block content
 			div.form-group.col-md-7
 				label Additional comments:
 				textarea(name="message", class="message form-control")
+			div.form-group.col-md-7
+				div.tovalidate
+					label(id="ssTestLabel", for="ssTestValue")
+					input(type="text", name="ssTestValue", id="ssTestValue", class="form-control")
 			div.form-group.col-md-7.hidden
 				input(type="hidden", name="_cc", class="cc" value="allen.support@webfactories.biz")
 				input(type="hidden", name="_next", value="/pages/thanks")
 				input(type="text", name="_gotcha", style="display:none")
 			div.form-group.col-md-7
-				button(type="submit", class="send btn btn-primary") Send
+				button(type="submit", name="submit", class="send btn btn-primary") Send
