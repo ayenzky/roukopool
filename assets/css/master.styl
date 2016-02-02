@@ -36,6 +36,18 @@ img.media-object
 .header
   margin-top: 20px
 
+.navbar-header h5.active-menu
+  text-transform: uppercase;
+  float: left;
+  line-height: 2.2;
+  padding: 0px 10px;
+  display: none;
+
+.navbar li.active:first-child a
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+
+
 .content .title
   margin-top: 0px
 
@@ -76,6 +88,11 @@ img.media-object
    width: 100%
   
 @media screen and (max-width: 767px) 
+  .navbar li.active a
+    border-radius:0px !important;
+
+  .navbar-header h5.active-menu
+    display:block;
   
   .navbar-nav
     margin: 0px
@@ -138,10 +155,10 @@ img.media-object
  font-size: 15px
  color: font-color !important
  text-transform: uppercase
- padding-right: 5px
+ 
 
  @media screen and (max-width: 640px)
-  padding-left: 25px !important
+  padding-left: 10px !important
 
 .navbar li ul a.dropdown-toggle
   border: 1px solid red
@@ -160,7 +177,7 @@ img.media-object
   @media screen and (max-width: 640px)
     padding-left: 35px !important
 
-.navbar li.active a
+.navbar li.active a, .dropdown .dropdown-toggle.active
  background-color: navy-btn !important
  color: white !important
 

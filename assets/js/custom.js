@@ -38,3 +38,14 @@ function stripTrailingSlash(str) {
       $(this).parent().addClass('active'); 
     } 
   });
+
+
+var activemenu = $("#menu .nav li.active").text();
+
+$('<h5 class="active-menu">'+activemenu+'</h5>').insertBefore("button.navbar-toggle");
+
+$('li.dropdown > .dropdown-menu li').each(function(){
+    if($(this).hasClass('active')) {
+        $(this).parents('li.dropdown').find("a.dropdown-toggle").addClass("active");
+    } 
+});

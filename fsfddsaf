@@ -1,0 +1,98 @@
+[33mcommit 585ba16cd7df0df1e145ddaf4c7030c248ca508c[m
+Author: allen_support <allen.support@webfactories.biz>
+Date:   Mon Feb 1 17:40:03 2016 +0800
+
+    New fixes
+
+[33mcommit b7fe9d22837b7db0afd175259f9848118b359729[m
+Author: allen_support <allen.support@webfactories.biz>
+Date:   Mon Feb 1 16:02:38 2016 +0800
+
+    New fixes
+
+[33mcommit fee59274bc843e55c3c512dc0f36d9ab68f7bf70[m
+Author: allen_support <allen.support@webfactories.biz>
+Date:   Mon Feb 1 15:41:44 2016 +0800
+
+    Fixes
+
+[33mcommit 4e418dc499510fe52a44ba2da8b8882f4a43d6d4[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Wed Jan 27 12:34:34 2016 +0800
+
+    Roukopool -> Fixes overflow on procedure page
+
+[33mcommit 20daef4ab9090c7e71a54c9c978f5434e4d7f668[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Tue Jan 26 17:18:03 2016 +0800
+
+    Roukopool: Fixes menu and footer boxes padding on smaller screen
+
+[33mcommit d21b7894c4144465fe7576898446e955c5c6d71e[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Tue Jan 26 16:58:13 2016 +0800
+
+    Roukopool: Fixes footer, gallery page, mobile view and etc.
+
+[33mcommit 77f25a80feae11c6b6207da06208b6c79f7d7755[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Tue Jan 26 11:59:30 2016 +0800
+
+    Roukopool: Contact us Page implementation
+
+[33mcommit de02d294e2b773ec69193f83d8aeb3926c08b18b[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Mon Jan 25 17:36:43 2016 +0800
+
+    Content Fixes: About Us
+
+[33mcommit 8cebff085c3be82ded200e8043ced1efcc991df5[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Mon Jan 25 17:24:27 2016 +0800
+
+    Content Updates
+
+[33mcommit 15d7d71089cb85b69be0c31c90eb90a1c1a6c6af[m
+Author: Eljun <el.junsan@yahoo.com>
+Date:   Sun Jan 24 19:27:49 2016 +0800
+
+    Roukopool: Additional Contents update
+
+[33mcommit f34f11796ad13466fa219035f0e995a595a76be4[m
+Author: Eljun <el.junsan@yahoo.com>
+Date:   Sun Jan 24 14:32:24 2016 +0800
+
+    Roukopool: Contents added -> Maintenance Tips
+
+[33mcommit 50b4035ddff8242dd7f3357d0db4483889c81047[m
+Author: Eljun <el.junsan@yahoo.com>
+Date:   Sun Jan 24 13:43:45 2016 +0800
+
+    Roukopool: Contents added -> Residential & Procedure
+
+[33mcommit 2e3b8a796acadce24786ba70724183405cf73caa[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Fri Jan 22 17:42:07 2016 +0800
+
+    Content Update: Commercial + lightbox functionality
+
+[33mcommit 2ec206c789bd9ba8ae3f7fb1d1299d8972508283[m
+Merge: f466902 241ab08
+Author: eljun <el.junsan@yahoo.com>
+Date:   Fri Jan 15 10:29:20 2016 +0800
+
+    Merge branches 'roukopoolinteriors' and 'roukopoolinteriors' of https://github.com/eljun/webriq-4
+
+[33mcommit f466902b09713f1633f9c122379f983c30b032c8[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Fri Jan 15 10:11:41 2016 +0800
+
+    Initial Files
+
+[33mcommit 241ab080241d8f020d07f9e7ae81f12c3644bbb8[m
+Author: eljun <el.junsan@yahoo.com>
+Date:   Fri Jan 15 09:39:01 2016 +0800
+
+    Create README.md
+    
+    Read Me
