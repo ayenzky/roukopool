@@ -6,7 +6,7 @@ block content
 	p Have an enquiry? Send us an email.<br> We will answer as quickly as we can!
 
 	div.row
-		form(action="//formspree.io/ayenzky101@gmail.com", method="POST", id="ss-form")
+		form(name="contactus", method="POST", id="ss-form", netlify)
 			input(type="hidden", name="_subject", value="Roukopoolinteriors - Online Enquiries")
 			div.form-group.col-md-7
 				label Name <span class="required">*</span>:
@@ -57,13 +57,13 @@ block content
 			div.form-group.col-md-7
 				label Additional comments:
 				textarea(name="message", class="message form-control")
-			div.form-group.col-md-7
-				div.tovalidate
-					label(id="ssTestLabel", for="ssTestValue")
-					input(type="text", name="ssTestValue", id="ssTestValue", class="form-control")
+			//- div.form-group.col-md-7
+			//- 	div.tovalidate
+			//- 		label(id="ssTestLabel", for="ssTestValue")
+			//- 		input(type="text", id="ssTestValue", class="form-control")
 			div.form-group.col-md-7.hidden
 				input(type="hidden", name="_cc", class="cc" value="allen.support@webfactories.biz")
-				input(type="hidden", name="_next", value="/pages/thanks")
+				input(type="hidden", name="_next", value="/thanks")
 				input(type="text", name="_gotcha", style="display:none")
 			div.form-group.col-md-7
-				button(type="submit", name="submit", class="send btn btn-primary") Send
+				button(type="submit", class="send btn btn-primary") Send
